@@ -40,3 +40,17 @@ make build   # 編譯程式
 make run     # 執行程式
 make clean   # 清理編譯檔案
 ```
+
+# 安裝gopls
+```
+//install
+go install golang.org/x/tools/gopls@latest
+
+//config
+echo 'export PATH=$PATH:/Users/luyuhsin/go/bin' >> ~/.zshrc
+source ~/.zshrc
+
+//verify
+which gopls
+
+```
